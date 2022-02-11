@@ -1,0 +1,25 @@
+{
+  "name": "lcopassportgoogle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
